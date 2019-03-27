@@ -1,0 +1,24 @@
+Punteros:
+
+El puntero guarda una dirección de memoria, no el valor asignado a la variable que le estamos pasando.
+
+Cuando usamos el operador "*" en una función: printf("%d",*n);
+el "*" de n, se va a encargar de ver el dato y al darse cuenta de que es una direccion de memoria, va a a ir a la direccion,
+ve el valor que tiene y lo muestrar.
+
+Nota: el "*" que declaramos en la variable no tiene nada que ver con el que usamos en la función.
+
+ejem:
+
+int nro;
+int *n;
+nro=3;
+n=&nro;
+
+printf("%d",nro);
+printf("%p",n);
+printf("%d",*n);
+
+
+
+
