@@ -1,0 +1,32 @@
+*Biblioteca de funciones: "string.h"
+
+
+Funciones para cadenas de caracteres
+
+
+*strcat: recibe dos cadenas y las concatena
+
+ej:
+
+strcat(nombre,apellido);
+
+*strcmp: compara dos elementos de cadena de caracteres y se guía por el codigo ASCII
+
+ej:
+
+strcmp: (nombre,nombre2);
+
+*stricmp: 
+
+*strlen: retorna la cantidad de caracteres de la cadena
+
+*strlwr: string lower - pasa a minuscula una cadena
+
+*Tolower: pasa un caracter a minuscula
+
+*strupr: pasa a mayusucula una cadena
+
+strncpi: 
+
+fgets: recibe la maxima cantidad de carac posible, si estipulaste que hay espacio para 15 carac y vos 
+ingresas un nombre de 20 caract, solamente agarra los primeros 15 carac y lo corta.
