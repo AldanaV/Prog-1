@@ -1,0 +1,17 @@
+Punteros:
+
+Uso de punteros: 
+
+Trabaja con la memoria dinamica.
+
+malloc = memoria located
+
+
+Null= es una direccion de memoria que no apunta a nada, es una referencia o puntero, se puede usarla para limpiar el puntero 
+si es que tiene basura.
+
+Los asteriscos tiene dos funcioes: declaracion de la variable y el uso durante el programa.
+
+* = operador de indireccion
+
+**= puntero que guarda un puntero	
